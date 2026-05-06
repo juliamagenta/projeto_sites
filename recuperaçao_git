@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio do Desenvolvidor</title>
+</head>
+<body>
+    <!--header adicionar informaçoes iniciais/apresentaçao-->
+    <header>
+        <h1>Júlia Zanini Stein</h1>
+        <p>Olá Meu nome é julia e sou uma estudante do CIMOL do curso de informática do segundo ano.
+            E hoje irei mostrar minhas habilidades em areas diversas.
+        </p>
+    </header>
 
+     <!--sessao contendo informaçoes com destaques necessarios--->
+    <section>
+       
+        <H1>Habilidades</H1>
+        <p> Estudante de Tecnico de <strong>informática.</strong>
+         <br>Habilidades em <strong>codigos e criação de sites</strong><br/>
+           conhecimento sobre <strong>designs de site</strong> e <em>frontend</em>
+          <br>Dominaçao de conhecimentos sobre a<strong> placa mãe.</strong><br/>
+            Conhecimento em <strong>linguagens</strong> como <em>Java Script e python</em>
+        </p>
+    </section>
+
+ <!--conteudo principal/importante ,onde vai formularios-->
+    <main>
+       
+<form>
+    <fieldset>
+        <legend>Formulario de Contato</legend>
+<!--cada label com seu imput respectivo, utilizando required para sessao obrigatoria
+mesmo name para escolher 1 opçao, names diferentes para varias escolhas  -->
+        <label for="host">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+
+            <label for="host">Areas de interesse:</label> 
+
+<!--1 opçao apenas utilizando o mesmo name>area-->
+          <br> <input type="radio" id="front-end" name="area" value="front-end">
+<label for="front-end">front-end</label><br/>
+
+ <input type="radio" id="back-end" name="area" value="back-end">
+ <label for="back-end">back-end</label><br>
+
+ <input type="radio" id="full-stack" name="area" value="full-stack">
+ <label for="full-stack">full-stack</label><br>
+
+<!--mais opçoes a serem marcadas pelo name diferente dos radios>opçoes-->
+<p><label for="host">Habilidades:</label></p>
+<input type="checkbox" id="Html" name="opcao1" value="Html">
+<label for="Html">Html</label>
+
+<input type="checkbox" id="C" name="opcao2" value="C">
+<label for="C">C</label>
+
+<input type="checkbox" id="Redes" name="opcao3" value="Redes">
+<label for="Redes">Redes</label>
+
+<input type="checkbox" id="Git" name="opcao4" value="Git">
+<label for="Git">Git</label>
+<!--botao de enviar com o type submit para enviar-->
+<p>
+<button type="submit">Enviar</button>
+</p>
+    </fieldset>
+</form>
+    </main>
+
+    <footer>
+<a href="https://github.com/juliamagenta">Conta Git Hub</a>
+<p>
+<time datetime="2026-05-06">06 de maio de 2026</time>
+<p>
+<img alt src="imagem do projeto/informatica.jpg">
+</footer>
+</body>
+</html>
+</body>
+</html>
